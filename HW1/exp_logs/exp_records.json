@@ -1,0 +1,338 @@
+[
+  {
+    "exp_id": "20260328_012040",
+    "time": "2026-03-28 01:20:40",
+    "target_only": true,
+    "model": "Sequential(\n  (0): Linear(in_features=42, out_features=128, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=128, out_features=64, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=64, out_features=32, bias=True)\n  (5): ReLU()\n  (6): Linear(in_features=32, out_features=1, bias=True)\n)",
+    "config": {
+      "n_epochs": 5000,
+      "batch_size": 64,
+      "optimizer": "SGD",
+      "optim_hparas": {
+        "lr": 0.001,
+        "momentum": 0.9
+      },
+      "early_stop": 300,
+      "save_path": "models/model.pth"
+    },
+    "best_dev_loss": 0.9855508711602953,
+    "finished_epochs": 359,
+    "saved_model": "saved_models/model_20260328_012040.pth",
+    "kaggle_score": null
+  },
+  {
+    "exp_id": "20260328_012419",
+    "time": "2026-03-28 01:24:19",
+    "target_only": true,
+    "model": "Sequential(\n  (0): Linear(in_features=42, out_features=128, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=128, out_features=64, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=64, out_features=32, bias=True)\n  (5): ReLU()\n  (6): Linear(in_features=32, out_features=1, bias=True)\n)",
+    "config": {
+      "n_epochs": 5000,
+      "batch_size": 64,
+      "optimizer": "SGD",
+      "optim_hparas": {
+        "lr": 0.0005,
+        "momentum": 0.9
+      },
+      "early_stop": 300,
+      "save_path": "models/model.pth"
+    },
+    "best_dev_loss": 0.9758898523118761,
+    "finished_epochs": 330,
+    "saved_model": "saved_models/model_20260328_012419.pth",
+    "kaggle_score": null
+  },
+  {
+    "exp_id": "20260328_012706",
+    "time": "2026-03-28 01:27:06",
+    "target_only": true,
+    "model": "Sequential(\n  (0): Linear(in_features=42, out_features=256, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=256, out_features=128, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=128, out_features=64, bias=True)\n  (5): ReLU()\n  (6): Linear(in_features=64, out_features=1, bias=True)\n)",
+    "config": {
+      "n_epochs": 5000,
+      "batch_size": 64,
+      "optimizer": "SGD",
+      "optim_hparas": {
+        "lr": 0.0005,
+        "momentum": 0.9
+      },
+      "early_stop": 300,
+      "save_path": "models/model.pth"
+    },
+    "best_dev_loss": 0.9756236853422942,
+    "finished_epochs": 347,
+    "saved_model": "saved_models/model_20260328_012706.pth",
+    "kaggle_score": null
+  },
+  {
+    "exp_id": "20260328_013148",
+    "time": "2026-03-28 01:31:48",
+    "target_only": true,
+    "model": "Sequential(\n  (0): Linear(in_features=42, out_features=256, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=256, out_features=128, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=128, out_features=64, bias=True)\n  (5): ReLU()\n  (6): Linear(in_features=64, out_features=1, bias=True)\n)",
+    "config": {
+      "n_epochs": 5000,
+      "batch_size": 32,
+      "optimizer": "SGD",
+      "optim_hparas": {
+        "lr": 0.0005,
+        "momentum": 0.9
+      },
+      "early_stop": 300,
+      "save_path": "models/model.pth"
+    },
+    "best_dev_loss": 0.9790814571910434,
+    "finished_epochs": 318,
+    "saved_model": "saved_models/model_20260328_013148.pth",
+    "kaggle_score": null
+  },
+  {
+    "exp_id": "20260328_013309",
+    "time": "2026-03-28 01:33:09",
+    "target_only": true,
+    "model": "Sequential(\n  (0): Linear(in_features=42, out_features=256, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=256, out_features=128, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=128, out_features=64, bias=True)\n  (5): ReLU()\n  (6): Linear(in_features=64, out_features=1, bias=True)\n)",
+    "config": {
+      "n_epochs": 5000,
+      "batch_size": 128,
+      "optimizer": "SGD",
+      "optim_hparas": {
+        "lr": 0.0005,
+        "momentum": 0.9
+      },
+      "early_stop": 300,
+      "save_path": "models/model.pth"
+    },
+    "best_dev_loss": 0.9727246712755274,
+    "finished_epochs": 346,
+    "saved_model": "saved_models/model_20260328_013309.pth",
+    "kaggle_score": null
+  },
+  {
+    "exp_id": "20260328_013448",
+    "time": "2026-03-28 01:34:48",
+    "target_only": true,
+    "model": "Sequential(\n  (0): Linear(in_features=42, out_features=256, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=256, out_features=128, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=128, out_features=64, bias=True)\n  (5): ReLU()\n  (6): Linear(in_features=64, out_features=1, bias=True)\n)",
+    "config": {
+      "n_epochs": 5000,
+      "batch_size": 128,
+      "optimizer": "SGD",
+      "optim_hparas": {
+        "lr": 0.0005,
+        "momentum": 0.95
+      },
+      "early_stop": 300,
+      "save_path": "models/model.pth"
+    },
+    "best_dev_loss": 0.9867199721159758,
+    "finished_epochs": 375,
+    "saved_model": "saved_models/model_20260328_013448.pth",
+    "kaggle_score": null
+  },
+  {
+    "exp_id": "20260328_013620",
+    "time": "2026-03-28 01:36:20",
+    "target_only": true,
+    "model": "Sequential(\n  (0): Linear(in_features=42, out_features=256, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=256, out_features=128, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=128, out_features=64, bias=True)\n  (5): ReLU()\n  (6): Linear(in_features=64, out_features=1, bias=True)\n)",
+    "config": {
+      "n_epochs": 5000,
+      "batch_size": 128,
+      "optimizer": "SGD",
+      "optim_hparas": {
+        "lr": 0.0005,
+        "momentum": 0.85
+      },
+      "early_stop": 300,
+      "save_path": "models/model.pth"
+    },
+    "best_dev_loss": 0.9709573838445875,
+    "finished_epochs": 380,
+    "saved_model": "saved_models/model_20260328_013620.pth",
+    "kaggle_score": null
+  },
+  {
+    "exp_id": "20260328_013755",
+    "time": "2026-03-28 01:37:55",
+    "target_only": true,
+    "model": "Sequential(\n  (0): Linear(in_features=42, out_features=256, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=256, out_features=128, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=128, out_features=64, bias=True)\n  (5): ReLU()\n  (6): Linear(in_features=64, out_features=1, bias=True)\n)",
+    "config": {
+      "n_epochs": 5000,
+      "batch_size": 128,
+      "optimizer": "SGD",
+      "optim_hparas": {
+        "lr": 0.0005,
+        "momentum": 0.8
+      },
+      "early_stop": 300,
+      "save_path": "models/model.pth"
+    },
+    "best_dev_loss": 0.9727613868536773,
+    "finished_epochs": 396,
+    "saved_model": "saved_models/model_20260328_013755.pth",
+    "kaggle_score": null
+  },
+  {
+    "exp_id": "20260328_014007",
+    "time": "2026-03-28 01:40:07",
+    "target_only": true,
+    "model": "Sequential(\n  (0): Linear(in_features=42, out_features=256, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=256, out_features=128, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=128, out_features=64, bias=True)\n  (5): ReLU()\n  (6): Linear(in_features=64, out_features=1, bias=True)\n)",
+    "config": {
+      "n_epochs": 5000,
+      "batch_size": 128,
+      "optimizer": "SGD",
+      "optim_hparas": {
+        "lr": 0.0005,
+        "momentum": 0.7
+      },
+      "early_stop": 300,
+      "save_path": "models/model.pth"
+    },
+    "best_dev_loss": 0.9727524298208731,
+    "finished_epochs": 489,
+    "saved_model": "saved_models/model_20260328_014007.pth",
+    "kaggle_score": null
+  },
+  {
+    "exp_id": "20260328_014138",
+    "time": "2026-03-28 01:41:38",
+    "target_only": true,
+    "model": "Sequential(\n  (0): Linear(in_features=42, out_features=256, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=256, out_features=128, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=128, out_features=64, bias=True)\n  (5): ReLU()\n  (6): Linear(in_features=64, out_features=1, bias=True)\n)",
+    "config": {
+      "n_epochs": 5000,
+      "batch_size": 128,
+      "optimizer": "SGD",
+      "optim_hparas": {
+        "lr": 0.0005,
+        "momentum": 0.85
+      },
+      "early_stop": 300,
+      "save_path": "models/model.pth"
+    },
+    "best_dev_loss": 0.9709573838445875,
+    "finished_epochs": 380,
+    "saved_model": "saved_models/model_20260328_014138.pth",
+    "kaggle_score": null
+  },
+  {
+    "exp_id": "20260329_111125",
+    "time": "2026-03-29 11:11:25",
+    "target_only": true,
+    "model": "Sequential(\n  (0): Linear(in_features=42, out_features=256, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=256, out_features=128, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=128, out_features=64, bias=True)\n  (5): ReLU()\n  (6): Linear(in_features=64, out_features=1, bias=True)\n)",
+    "config": {
+      "n_epochs": 5000,
+      "batch_size": 128,
+      "optimizer": "SGD",
+      "optim_hparas": {
+        "lr": 0.0005,
+        "momentum": 0.85
+      },
+      "early_stop": 300,
+      "save_path": "models/model.pth"
+    },
+    "best_dev_loss": 1.382454009409304,
+    "finished_epochs": 389,
+    "saved_model": "saved_models/model_20260329_111125.pth",
+    "kaggle_score": null
+  },
+  {
+    "exp_id": "20260329_111639",
+    "time": "2026-03-29 11:16:39",
+    "target_only": true,
+    "model": "Sequential(\n  (0): Linear(in_features=42, out_features=256, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=256, out_features=128, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=128, out_features=64, bias=True)\n  (5): ReLU()\n  (6): Linear(in_features=64, out_features=1, bias=True)\n)",
+    "config": {
+      "n_epochs": 5000,
+      "batch_size": 64,
+      "optimizer": "SGD",
+      "optim_hparas": {
+        "lr": 0.001,
+        "momentum": 0.9
+      },
+      "early_stop": 300,
+      "save_path": "models/model.pth"
+    },
+    "best_dev_loss": 1.3288728296756744,
+    "finished_epochs": 753,
+    "saved_model": "saved_models/model_20260329_111639.pth",
+    "kaggle_score": null
+  },
+  {
+    "exp_id": "20260329_121531",
+    "time": "2026-03-29 12:15:31",
+    "target_only": true,
+    "model": "Sequential(\n  (0): Linear(in_features=42, out_features=256, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=256, out_features=128, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=128, out_features=64, bias=True)\n  (5): ReLU()\n  (6): Linear(in_features=64, out_features=1, bias=True)\n)",
+    "config": {
+      "n_epochs": 5000,
+      "batch_size": 64,
+      "optimizer": "SGD",
+      "optim_hparas": {
+        "lr": 0.001,
+        "momentum": 0.9
+      },
+      "early_stop": 300,
+      "save_path": "models/model_fold4.pth"
+    },
+    "best_dev_loss": 1.2460846344629923,
+    "finished_epochs": 377,
+    "saved_model": "saved_models/model_20260329_121531.pth",
+    "kaggle_score": null
+  },
+  {
+    "exp_id": "20260329_124924",
+    "time": "2026-03-29 12:49:24",
+    "target_only": true,
+    "model": "Sequential(\n  (0): Linear(in_features=42, out_features=256, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=256, out_features=128, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=128, out_features=64, bias=True)\n  (5): ReLU()\n  (6): Linear(in_features=64, out_features=1, bias=True)\n)",
+    "config": {
+      "n_epochs": 5000,
+      "batch_size": 128,
+      "optimizer": "SGD",
+      "optim_hparas": {
+        "lr": 0.0005,
+        "momentum": 0.85
+      },
+      "early_stop": 300,
+      "save_path": "models/model_fold9.pth"
+    },
+    "best_dev_loss": 1.384522498316235,
+    "finished_epochs": 585,
+    "saved_model": "saved_models/model_20260329_124924.pth",
+    "kaggle_score": null
+  },
+  {
+    "exp_id": "20260329_150839",
+    "time": "2026-03-29 15:08:39",
+    "target_only": true,
+    "model": "Sequential(\n  (0): Linear(in_features=42, out_features=256, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=256, out_features=128, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=128, out_features=64, bias=True)\n  (5): ReLU()\n  (6): Linear(in_features=64, out_features=1, bias=True)\n)",
+    "config": {
+      "n_epochs": 5000,
+      "batch_size": 128,
+      "optimizer": "SGD",
+      "optim_hparas": {
+        "lr": 0.0005,
+        "momentum": 0.85
+      },
+      "early_stop": 300,
+      "save_path": "models/model_fold4.pth"
+    },
+    "best_dev_loss": 1.1693001076027199,
+    "finished_epochs": 374,
+    "saved_model": "saved_models/model_20260329_150839.pth",
+    "kaggle_score": null
+  },
+  {
+    "exp_id": "20260329_164103",
+    "time": "2026-03-29 16:41:03",
+    "target_only": true,
+    "model": "Sequential(\n  (0): Linear(in_features=42, out_features=256, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=256, out_features=128, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=128, out_features=64, bias=True)\n  (5): ReLU()\n  (6): Linear(in_features=64, out_features=1, bias=True)\n)",
+    "config": {
+      "n_epochs": 5000,
+      "batch_size": 128,
+      "optimizer": "SGD",
+      "optim_hparas": {
+        "lr": 0.0005,
+        "momentum": 0.85
+      },
+      "early_stop": 300,
+      "save_path": "models/model_fold4.pth"
+    },
+    "best_dev_loss": 0.9881024855154532,
+    "finished_epochs": 361,
+    "saved_model": "saved_models/model_20260329_164103.pth",
+    "kaggle_score": null
+  }
+]
