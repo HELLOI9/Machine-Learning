@@ -334,5 +334,47 @@
     "finished_epochs": 361,
     "saved_model": "saved_models/model_20260329_164103.pth",
     "kaggle_score": null
+  },
+  {
+    "exp_id": "20260329_203740",
+    "time": "2026-03-29 20:37:40",
+    "target_only": false,
+    "model": "Sequential(\n  (0): Linear(in_features=50, out_features=256, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=256, out_features=128, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=128, out_features=64, bias=True)\n  (5): ReLU()\n  (6): Linear(in_features=64, out_features=1, bias=True)\n)",
+    "config": {
+      "n_epochs": 5000,
+      "batch_size": 128,
+      "optimizer": "SGD",
+      "optim_hparas": {
+        "lr": 0.0005,
+        "momentum": 0.85
+      },
+      "early_stop": 300,
+      "save_path": "models/model_fold4.pth"
+    },
+    "best_dev_loss": 0.8903788986029448,
+    "finished_epochs": 711,
+    "saved_model": "saved_models/model_20260329_203740.pth",
+    "kaggle_score": null
+  },
+  {
+    "exp_id": "20260329_205505",
+    "time": "2026-03-29 20:55:05",
+    "target_only": false,
+    "model": "Sequential(\n  (0): Linear(in_features=55, out_features=256, bias=True)\n  (1): ReLU()\n  (2): Linear(in_features=256, out_features=128, bias=True)\n  (3): ReLU()\n  (4): Linear(in_features=128, out_features=64, bias=True)\n  (5): ReLU()\n  (6): Linear(in_features=64, out_features=1, bias=True)\n)",
+    "config": {
+      "n_epochs": 5000,
+      "batch_size": 128,
+      "optimizer": "SGD",
+      "optim_hparas": {
+        "lr": 0.0005,
+        "momentum": 0.85
+      },
+      "early_stop": 300,
+      "save_path": "models/model_fold4.pth"
+    },
+    "best_dev_loss": 0.813837703510567,
+    "finished_epochs": 497,
+    "saved_model": "saved_models/model_20260329_205505.pth",
+    "kaggle_score": null
   }
 ]
