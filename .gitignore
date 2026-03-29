@@ -1,2 +1,13 @@
+# Generated data
 *.csv
-*.ipynb_checkpoints
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+**/__pycache__/
+
+# Model directories
+models/
+saved_models/
+**/models/
+**/saved_models/
