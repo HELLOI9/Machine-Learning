@@ -1,6 +1,3 @@
-# Generated data
-*.csv
-
 # Jupyter checkpoints
 .ipynb_checkpoints/
 **/.ipynb_checkpoints/
