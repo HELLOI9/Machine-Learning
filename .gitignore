@@ -8,3 +8,7 @@ models/
 saved_models/
 **/models/
 **/saved_models/
+
+# data
+HW02/timit_11/
+HW02/data.zip
